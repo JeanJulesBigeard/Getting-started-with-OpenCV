@@ -1,0 +1,158 @@
+<html>
+
+<!--- Stylesheet start --->
+<style>
+.button {
+  border: none;
+  color: white;
+  padding: 5px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.red {background-color: #f44336;}
+.green{background-color: #4CAF50;}
+#canvas-container {
+   width: 100%;
+   text-align:center;
+}
+
+canvas {
+   display: inline;
+}
+
+h1{
+    font-size: 50px;
+    line-height: 1;
+}
+</style>
+
+<!--- Stylesheet end --->
+
+<!--- JQuery library to make http request --->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<!--- Main javascript code --->
+<script type="text/javascript">
+
+    // Drawing is done on the Canvas
+    var canvas, ctx, flag = false,
+        prevX = 0, 
+        currX = 0,
+        prevY = 0,
+        currY = 0;
+        
+
+    function init() {
+        // Set up canvas and line styles to draw
+        canvas = document.getElementById('can');
+        ctx = canvas.getContext("2d");
+        ctx.fillStyle = "black";
+        ctx.fillRect(0, 0, canvas.width, canvas.height);
+        ctx.strokeStyle = 'white';
+        ctx.lineWidth = 25;
+        ctx.lineCap = 'round';
+        w = canvas.width;
+        h = canvas.height;
+        
+        // Add mouse event listeners to the canvas
+        canvas.addEventListener("mousemove", function (e) {
+            mouseEventHandler('move', e)
+        }, false);
+        canvas.addEventListener("mousedown", function (e) {
+            mouseEventHandler('down', e)
+        }, false);
+        canvas.addEventListener("mouseup", function (e) {
+            mouseEventHandler('up', e)
+        }, false);
+        canvas.addEventListener("mouseout", function (e) {
+            mouseEventHandler('out', e)
+        }, false);
+    }
+    
+    // Draw line 
+    function draw() {
+        ctx.beginPath();
+        ctx.moveTo(prevX, prevY);
+        ctx.lineTo(currX, currY);
+        ctx.stroke();
+        ctx.closePath();
+    }
+    
+    // Erase canvas
+    function erase() {
+        
+        ctx.fillStyle = "black";
+        ctx.fillRect(0, 0, w, h);
+    }
+    
+    // Convert canvas to an image and upload
+    function upload() {
+        
+        // Convert canvas to jpeg image
+        var dataURL = canvas.toDataURL('image/jpeg', 0.8);
+
+        // Call the server with the encoded image data. 
+        $.ajax({
+            type: "POST",
+            url: "/upload", 
+            data: {"data":dataURL},
+            success: function(data) {
+                console.log(data)
+                var json = JSON.parse(data)
+                $( "#output" ).html("<strong>Recognized Digit</strong>: " + json.class  + "<br><strong>Confidence</strong> " + json.confidence)
+            },
+            error: function(data) 
+            {
+                console.log("Upload failed")
+            }
+        }).done(function() {
+    console.log("Sent");
+  });
+
+        
+    }
+    
+    // Mouse event handler
+    function mouseEventHandler(res, e) 
+    {
+        if (res == 'down') {
+            prevX = currX;
+            prevY = currY;
+            currX = e.clientX - canvas.offsetLeft;
+            currY = e.clientY - canvas.offsetTop;
+    
+            flag = true;
+        }
+        if (res == 'up' || res == "out") {
+            flag = false;
+        }
+        if (res == 'move') {
+            if (flag) {
+                prevX = currX;
+                prevY = currY;
+                currX = e.clientX - canvas.offsetLeft;
+                currY = e.clientY - canvas.offsetTop;
+                draw();
+            }
+        }
+    }
+    </script>
+
+    <!-- HTML body -->
+    <body onload="init()">
+        <div id="canvas-container">
+            <h1> Digit Recognizer</h1>
+            <div style="text-align: center; padding: 10px;">
+                <input type="button" value="Clear" id="clr" size="30" onclick="erase()" class="red button">
+                <input type="button" value="Upload" id="clr" size="30" onclick="upload()" class="green button">
+            </div>
+            <canvas id="can" width="256" height="256"></canvas>
+            <p id="output">Scribble a digit and press upload.</p>
+            
+        </div>
+    </body>
+    </html>
