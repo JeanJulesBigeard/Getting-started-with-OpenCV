@@ -53,6 +53,16 @@
 
 
 
+|[Text_Detection](https://github.com/JeanJulesBigeard/Getting-started-with-OpenCV/tree/master/Text_Detection)  | Exemplification |
+| ------------- | ------------- |
+| [Text_Recognition_Tesseract](https://github.com/JeanJulesBigeard/Getting-started-with-OpenCV/blob/master/Text_Detection/1_Text_Recognition_Tesseract.ipynb) [Tesseract_Failure_Cases](https://github.com/JeanJulesBigeard/Getting-started-with-OpenCV/blob/master/Text_Detection/2_Tesseract_Failure_Cases.ipynb) | ![alt text](https://github.com/JeanJulesBigeard/Getting-started-with-OpenCV/blob/master/Illustration/book1.jpg) ![alt text](https://github.com/JeanJulesBigeard/Getting-started-with-OpenCV/blob/master/Illustration/book.png)|
+| [Improving_Tesseract_OCR_Failures](https://github.com/JeanJulesBigeard/Getting-started-with-OpenCV/blob/master/Text_Detection/3_Improving_Tesseract_OCR_Failures.ipynb)  | ![alt text](https://github.com/JeanJulesBigeard/Getting-started-with-OpenCV/blob/master/Illustration/improve_tese.png) |
+| [Text_Detection_EAST](https://github.com/JeanJulesBigeard/Getting-started-with-OpenCV/blob/master/Text_Detection/4_Text_Detection_EAST.ipynb)    [Text_Detection_CRAFT](https://github.com/JeanJulesBigeard/Getting-started-with-OpenCV/blob/master/Text_Detection/5_Text_Detection_CRAFT.ipynb)  | ![alt text](https://github.com/JeanJulesBigeard/Getting-started-with-OpenCV/blob/master/Illustration/east.png) |
+| [Tesseract_with_Text_Detection](https://github.com/JeanJulesBigeard/Getting-started-with-OpenCV/blob/master/Text_Detection/6_Tesseract_with_Text_Detection.ipynb) [Text_Recognition_with_Keras_OCR](https://github.com/JeanJulesBigeard/Getting-started-with-OpenCV/blob/master/Text_Detection/7_Text_Recognition_with_Keras_OCR.ipynb) [Comparing_Tesseract_and_Keras_OCR](https://github.com/JeanJulesBigeard/Getting-started-with-OpenCV/blob/master/Text_Detection/8_Comparing_Tesseract_and_Keras_OCR.ipynb)| ![alt text](https://github.com/JeanJulesBigeard/Getting-started-with-OpenCV/blob/master/Illustration/Tesseract_with_Text_Detection.png) |
+
+
+
+
 |[Image recognition](https://github.com/JeanJulesBigeard/Getting-started-with-OpenCV/tree/master/Image%20recognition)  | Exemplification |
 | ------------- | ------------- |
 | [Find_Object_using_Image_Features](https://github.com/JeanJulesBigeard/Getting-started-with-OpenCV/blob/master/Image%20recognition/Find_Object_using_Image_Features.ipynb)  | ![alt text](https://github.com/JeanJulesBigeard/Getting-started-with-OpenCV/blob/master/Illustration/Find_Object_using_Image_Feature.png)|
