@@ -13,6 +13,19 @@
 
 
 
+
+|[Semantic_segmentation](https://github.com/JeanJulesBigeard/Getting-started-with-OpenCV/blob/master/semantic_segmentation/Dice_Coefficient_Metric.ipynb)  | Exemplification |
+| ------------- | ------------- |
+| [Dice Coefficient Metric](https://github.com/JeanJulesBigeard/Getting-started-with-OpenCV/blob/master/semantic_segmentation/Dice_Coefficient_Metric.ipynb) [Soft-Dice_Loss](https://github.com/JeanJulesBigeard/Getting-started-with-OpenCV/blob/master/semantic_segmentation/Soft-Dice_Loss.ipynb) | ![alt text](https://github.com/JeanJulesBigeard/Getting-started-with-OpenCV/blob/master/Illustration/Dice.png)|
+| [FCN_and_DeepLab_using_Torchvision](https://github.com/JeanJulesBigeard/Getting-started-with-OpenCV/blob/master/semantic_segmentation/FCN_and_DeepLab_using_Torchvision.ipynb)  | ![alt text](https://github.com/JeanJulesBigeard/Getting-started-with-OpenCV/blob/master/Illustration/FCN.png) ![alt text](https://github.com/JeanJulesBigeard/Getting-started-with-OpenCV/blob/master/Illustration/fcn1.png)|
+| [Instance Segmentation using Mask RCNN](https://github.com/JeanJulesBigeard/Getting-started-with-OpenCV/blob/master/semantic_segmentation/Instance_Segmentation_using_Mask_RCNN.ipynb)  | ![alt text](https://github.com/JeanJulesBigeard/Getting-started-with-OpenCV/blob/master/Illustration/Inst_seg.png) |
+| [LinkNet_Architecture](https://github.com/JeanJulesBigeard/Getting-started-with-OpenCV/blob/master/semantic_segmentation/LinkNet_Architecture.ipynb) | ![alt text](https://github.com/JeanJulesBigeard/Getting-started-with-OpenCV/blob/master/Illustration/link.png) |
+| [U-Net_using_PyTorch_Hub](https://github.com/JeanJulesBigeard/Getting-started-with-OpenCV/blob/master/semantic_segmentation/U-Net_using_PyTorch_Hub.ipynb) | ![alt text](https://github.com/JeanJulesBigeard/Getting-started-with-OpenCV/blob/master/Illustration/unet.png) |
+
+
+
+
+
 |[Facial_Landmark_Detection](https://github.com/JeanJulesBigeard/Getting-started-with-OpenCV/tree/master/Facial_Landmark_Detection)  | Exemplification |
 | ------------- | ------------- |
 | [Aging filter](https://github.com/JeanJulesBigeard/Getting-started-with-OpenCV/blob/master/Facial_Landmark_Detection/Aging-Filter.ipynb) - [Beard filter](https://github.com/JeanJulesBigeard/Getting-started-with-OpenCV/blob/master/Facial_Landmark_Detection/Beard-Filter.ipynb) - [Bug eyes](https://github.com/JeanJulesBigeard/Getting-started-with-OpenCV/blob/master/Facial_Landmark_Detection/Bug-Eyes.ipynb) - [Distortion-Filter](https://github.com/JeanJulesBigeard/Getting-started-with-OpenCV/blob/master/Facial_Landmark_Detection/Distortion-Filter.ipynb) - [Face-Averaging](https://github.com/JeanJulesBigeard/Getting-started-with-OpenCV/blob/master/Facial_Landmark_Detection/Face-Averaging.ipynb) - [Face-Morphing](https://github.com/JeanJulesBigeard/Getting-started-with-OpenCV/blob/master/Facial_Landmark_Detection/Face-Morphing.ipynb) - [Face_Alignment](https://github.com/JeanJulesBigeard/Getting-started-with-OpenCV/blob/master/Facial_Landmark_Detection/Face_Alignment.ipynb) - [Faceswap](https://github.com/JeanJulesBigeard/Getting-started-with-OpenCV/blob/master/Facial_Landmark_Detection/Faceswap.ipynb)| ![alt text](https://github.com/JeanJulesBigeard/Getting-started-with-OpenCV/blob/master/Illustration/age.png)|
@@ -27,6 +40,21 @@
 | [Hough detect -> line detection](https://github.com/JeanJulesBigeard/Getting-started-with-OpenCV/blob/master/Andvanced%20image%20processing%20and%20computational/Hough%20detect.ipynb)  | ![alt text](https://github.com/JeanJulesBigeard/Getting-started-with-OpenCV/blob/master/Illustration/Hough_detect.jpeg)|
 | [Seamless_Cloning -> blend in the background](https://github.com/JeanJulesBigeard/Getting-started-with-OpenCV/blob/master/Andvanced%20image%20processing%20and%20computational/Seamless_Cloning.ipynb)  | ![alt text](https://github.com/JeanJulesBigeard/Getting-started-with-OpenCV/blob/master/Illustration/seamless_clonning.jpeg) |
 | [High Dynamic Range (hdr) -> adapt exposure by stacking](https://github.com/JeanJulesBigeard/Getting-started-with-OpenCV/blob/master/Andvanced%20image%20processing%20and%20computational/hdr.ipynb)  | ![alt text](https://github.com/JeanJulesBigeard/Getting-started-with-OpenCV/blob/master/Illustration/hdr.jpeg) |
+
+
+
+
+
+|[Video Analysis](https://github.com/JeanJulesBigeard/Getting-started-with-OpenCV/tree/master/Video%20Analysis)  | Exemplification |
+| ------------- | ------------- |
+| [Lucas_Kanade_tracker](https://github.com/JeanJulesBigeard/Getting-started-with-OpenCV/blob/master/Video%20Analysis/Lucas_Kanade_tracker.ipynb) | ![alt text](https://github.com/JeanJulesBigeard/Getting-started-with-OpenCV/blob/master/Illustration/Lucas_Kanade_tracker.png)|
+| [Object Tracking using Meanshift and CAMshift](https://github.com/JeanJulesBigeard/Getting-started-with-OpenCV/blob/master/Video%20Analysis/Object_Tracking_using_Meanshift_and_CAMshift.ipynb)  | ![alt text](https://github.com/JeanJulesBigeard/Getting-started-with-OpenCV/blob/master/Illustration/tracking_cam.png) |
+| [OpenCV_Object_Tracking_API](https://github.com/JeanJulesBigeard/Getting-started-with-OpenCV/blob/master/Video%20Analysis/OpenCV_Object_Tracking_API.ipynb)  | ![alt text](https://github.com/JeanJulesBigeard/Getting-started-with-OpenCV/blob/master/Illustration/track_api.png) |
+| [Tracking_Multiple_Objects](https://github.com/JeanJulesBigeard/Getting-started-with-OpenCV/blob/master/Video%20Analysis/Tracking_Multiple_Objects.ipynb) | ![alt text](https://github.com/JeanJulesBigeard/Getting-started-with-OpenCV/blob/master/Illustration/mult_track.png) |
+| [Tracking_using_Kalman_Filter](https://github.com/JeanJulesBigeard/Getting-started-with-OpenCV/blob/master/Video%20Analysis/Tracking_using_Kalman_Filter.ipynb) | ![alt text](https://github.com/JeanJulesBigeard/Getting-started-with-OpenCV/blob/master/Illustration/kalman.png) |
+| [qrCode_detection](https://github.com/JeanJulesBigeard/Getting-started-with-OpenCV/blob/master/Video%20Analysis/qrCode_detection.py) | ![alt text](https://github.com/JeanJulesBigeard/Getting-started-with-OpenCV/blob/master/Illustration/qr.png) |
+
+
 
 
 |[Intro_to_deep_learning_OpenCV](https://github.com/JeanJulesBigeard/Getting-started-with-OpenCV/tree/master/Intro_to_deep_learning_OpenCV)  | Exemplification |
@@ -103,4 +131,13 @@
 
 
 
+|[Web_App_Digit_Recognizer](https://github.com/JeanJulesBigeard/Getting-started-with-OpenCV/tree/master/Web_App_Digit_Recognizer)  | 
+| ------------- |
+|![alt text](https://github.com/JeanJulesBigeard/Getting-started-with-OpenCV/blob/master/Illustration/webapp.png)|
 
+
+
+
+|[Video I-O and GUI](https://github.com/JeanJulesBigeard/Getting-started-with-OpenCV/blob/master/Video%20I-O%20and%20GUI/Draw%20circles%20on%20images%20with%20cv2.ipynb)  | Exemplification |
+| ------------- | ------------- |
+| [Draw circles on images](https://github.com/JeanJulesBigeard/Getting-started-with-OpenCV/blob/master/Video%20I-O%20and%20GUI/Draw%20circles%20on%20images%20with%20cv2.ipynb)  [Zoom_in_with_trackbar](https://github.com/JeanJulesBigeard/Getting-started-with-OpenCV/blob/master/Video%20I-O%20and%20GUI/zoom_in_with_trackbar.py) | ![alt text](https://github.com/JeanJulesBigeard/Getting-started-with-OpenCV/blob/master/Illustration/gui.png)|
