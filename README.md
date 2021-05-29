@@ -29,6 +29,28 @@
 | [High Dynamic Range (hdr) -> adapt exposure by stacking](https://github.com/JeanJulesBigeard/Getting-started-with-OpenCV/blob/master/Andvanced%20image%20processing%20and%20computational/hdr.ipynb)  | ![alt text](https://github.com/JeanJulesBigeard/Getting-started-with-OpenCV/blob/master/Illustration/hdr.jpeg) |
 
 
+|[Intro_to_deep_learning_OpenCV](https://github.com/JeanJulesBigeard/Getting-started-with-OpenCV/tree/master/Intro_to_deep_learning_OpenCV)  | Exemplification |
+| ------------- | ------------- |
+| [Image_Classification](https://github.com/JeanJulesBigeard/Getting-started-with-OpenCV/blob/master/Intro_to_deep_learning_OpenCV/DL_Image_Classification.ipynb) [Pretrained_Imagenet_Models_Classification](https://github.com/JeanJulesBigeard/Getting-started-with-OpenCV/blob/master/Intro_to_deep_learning_OpenCV/Pretrained_Imagenet_Models_Classification.ipynb) [Training_a_CNN_in_Caffe](https://github.com/JeanJulesBigeard/Getting-started-with-OpenCV/blob/master/Intro_to_deep_learning_OpenCV/Training_a_CNN_in_Caffe.ipynb) [Using_Tensorboard_in_TF_2_0](https://github.com/JeanJulesBigeard/Getting-started-with-OpenCV/blob/master/Intro_to_deep_learning_OpenCV/Using_Tensorboard_in_TF_2_0.ipynb) [keras_finetune_vgg](https://github.com/JeanJulesBigeard/Getting-started-with-OpenCV/blob/master/Intro_to_deep_learning_OpenCV/keras_finetune_vgg.ipynb) | ![alt text](https://github.com/JeanJulesBigeard/Getting-started-with-OpenCV/blob/master/Illustration/img_class.png)|
+| [Open Pose](https://github.com/JeanJulesBigeard/Getting-started-with-OpenCV/blob/master/Intro_to_deep_learning_OpenCV/OpenPose.ipynb)  | ![alt text](https://github.com/JeanJulesBigeard/Getting-started-with-OpenCV/blob/master/Illustration/OpenPose.png) |
+| [Face_Detection](https://github.com/JeanJulesBigeard/Getting-started-with-OpenCV/blob/master/Intro_to_deep_learning_OpenCV/SSD_Face_Detection.ipynb)  | ![alt text](https://github.com/JeanJulesBigeard/Getting-started-with-OpenCV/blob/master/Illustration/Face_Detection.png) |
+| [Object_Detection](https://github.com/JeanJulesBigeard/Getting-started-with-OpenCV/blob/master/Intro_to_deep_learning_OpenCV/SSD_Object_Detection.ipynb) [Object Detection using YOLOv3](https://github.com/JeanJulesBigeard/Getting-started-with-OpenCV/blob/master/Intro_to_deep_learning_OpenCV/YOLO_Object_Detection.ipynb) | ![alt text](https://github.com/JeanJulesBigeard/Getting-started-with-OpenCV/blob/master/Illustration/Object_Detection.png) |
+
+
+
+
+|[Object detection](https://github.com/JeanJulesBigeard/Getting-started-with-OpenCV/tree/master/Object%20detection)  | Exemplification |
+| ------------- | ------------- |
+| [Faster_rcnn_fine_tuning](https://github.com/JeanJulesBigeard/Getting-started-with-OpenCV/tree/master/Object%20detection/faster_rcnn_fine_tuning) | ![alt text](https://github.com/JeanJulesBigeard/Getting-started-with-OpenCV/blob/master/Illustration/frcnn.png)|
+| [Single-stage-detector](https://github.com/JeanJulesBigeard/Getting-started-with-OpenCV/tree/master/Object%20detection/single-stage-detector)  | ![alt text](https://github.com/JeanJulesBigeard/Getting-started-with-OpenCV/blob/master/Illustration/ssd.png) |
+| [Custom_YOLOv3_Darknet](https://github.com/JeanJulesBigeard/Getting-started-with-OpenCV/blob/master/Object%20detection/Custom_YOLOv3_Darknet.ipynb)  | ![alt text](https://github.com/JeanJulesBigeard/Getting-started-with-OpenCV/blob/master/Illustration/custom_yolo.png) |
+| [Deep Learning based Object Detection](https://github.com/JeanJulesBigeard/Getting-started-with-OpenCV/blob/master/Object%20detection/DL_Object_Detection.ipynb) | ![alt text](https://github.com/JeanJulesBigeard/Getting-started-with-OpenCV/blob/master/Illustration/DL_obj.png) |
+| [DarkNet_YOLO_Demo](https://github.com/JeanJulesBigeard/Getting-started-with-OpenCV/blob/master/Object%20detection/DarkNet_YOLO_Demo.ipynb) | ![alt text](https://github.com/JeanJulesBigeard/Getting-started-with-OpenCV/blob/master/Illustration/DarkNet_YOLO_Demo.png) |
+| [Non-maximum Suppression](https://github.com/JeanJulesBigeard/Getting-started-with-OpenCV/blob/master/Object%20detection/NMS.ipynb) | ![alt text](https://github.com/JeanJulesBigeard/Getting-started-with-OpenCV/blob/master/Illustration/nms.png) |
+| [Nvidia_SSD_PyTorch_Hub](https://github.com/JeanJulesBigeard/Getting-started-with-OpenCV/blob/master/Object%20detection/Nvidia_SSD_PyTorch_Hub.ipynb) | ![alt text](https://github.com/JeanJulesBigeard/Getting-started-with-OpenCV/blob/master/Illustration/hub.png) |
+| [RetinaNet_with_Detectron2](https://github.com/JeanJulesBigeard/Getting-started-with-OpenCV/blob/master/Object%20detection/RetinaNet_with_Detectron2.ipynb) | ![alt text](https://github.com/JeanJulesBigeard/Getting-started-with-OpenCV/blob/master/Illustration/detectron.png) |
+
+
 
 
 |[Image recognition](https://github.com/JeanJulesBigeard/Getting-started-with-OpenCV/tree/master/Image%20recognition)  | Exemplification |
